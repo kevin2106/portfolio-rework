@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .section {
-  padding: 80px 0;
+  padding: 150px 0;
 }
 
 .section-header {
@@ -58,12 +63,17 @@
   border-radius: 25px;
 }
 
+/* ==========================================================================
+  1. Header Section Style
+   ========================================================================== */
+
 #main-area {
   background: url(../img/background.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
+  height: 100%;
 }
 
 #main-area .overlay {
@@ -77,7 +87,21 @@
 }
 
 #main-area .contents {
-  padding: 150px 0 120px;
+  padding: 20% 0 120px;
+}
+#main-area h1 {
+  font-size: 75px;
+  padding-bottom: 25px;
+}
+
+#main-area p {
+  font-size: 25px;
+  padding-bottom: 25px;
+
+}
+
+#main-area .contents a {
+  padding: 11px 100px;
 }
 
 nav {
@@ -226,3 +250,26 @@ nav .brand-logo {
     color: #fa7921;
   }
 }
+
+/* ==========================================================================
+  2. Projects Section Style
+   ========================================================================== */
+   #aboutme {
+     padding: 50px 0 50px 0;
+   }
+
+   #aboutme img {
+     width: 250px;
+     height: 250px;
+     margin: 0 0 25px;
+   }
+
+   #aboutme .section-header{
+   }
+
+/* ==========================================================================
+  3. Projects Section Style
+   ========================================================================== */
+   #projects {
+     background: url(../img/background.png) fixed no-repeat;
+   }
